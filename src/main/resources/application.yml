@@ -1,0 +1,11 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/spring_reactive
+    username: DMS
+    password: DMS
+  flyway:
+    url: jdbc:postgresql://localhost:5432/spring_reactive
+    user: DMS
+    password: DMS
+server:
+  port: 3500
